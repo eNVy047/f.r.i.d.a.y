@@ -2,7 +2,7 @@
 
 🎉 **Official Public Release:** F.R.I.D.A.Y. is now officially released to the public as a standalone application! You can easily install it without needing to set up the development environment.
 
-* **Download:** Visit [http://friday.feynmanpi.com/](http://friday.feynmanpi.com/)
+* **Download:** Visit [https://xoraxi.com/](https://xoraxi.com/)
 * **Installers Available:** `.exe` for Windows and `.dmg` for macOS.
 
 > *"Fully Responsive Intelligent Digital Assistant for You"*
@@ -14,7 +14,6 @@ A Tony Stark-inspired AI assistant split into two cooperating pieces:
 | **MCP Server** (`uv run friday`) | A [FastMCP](https://github.com/jlowin/fastmcp) server that exposes tools (news, web search, system info, …) over SSE. Think of it as the Stark Industries backend — it does the actual work. |
 | **Voice Agent** (`uv run friday_voice`) | A [LiveKit Agents](https://github.com/livekit/agents) voice pipeline that listens to your microphone, reasons with an LLM (Gemini / OpenAI / Groq), and speaks back with TTS — all while pulling tools from the MCP server and managing persistent memory in real time. |
 
-**Demo:** [Instagram reel](https://www.instagram.com/p/DW2HjYtkwg_/)
 
 ---
 
